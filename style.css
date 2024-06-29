@@ -4,6 +4,9 @@
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
+.back{
+    background-color: #041d3b;
+}
 h1{
     font-size: 50px;
     text-align: center;
