@@ -32,6 +32,9 @@ h1{
 .logo{
     width: 150px;
     cursor: pointer;
+    border-radius: 50%;
+    scale: 0.8;
+    
 }
 .navbar ul li{
     list-style: none;
