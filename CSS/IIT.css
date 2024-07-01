@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+   
+}
+
+.back{
+    background-color: hsl(213, 87%, 12%);
+    width: 100%;
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+.logo{
+    border-radius: 50%;
+    scale: 0.8;
+    width: 150px;
+     cursor: pointer;
+
+    
+}
+
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+   
+    
+   
+    
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav-link{
+
+    margin: px;
+    display: flex;
+    margin-top: 2px;
+    
+
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #08eed7;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+
+   
+}
+
+.boxes{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    
+
+    
+     
+    
+}
+
+/* 
+.footer-links ul{
+    display: flex;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-evenly;
+    
+}
+
+.footer-links ul li{
+    margin: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-weight: 200;
+    font-style:italic
+} */
+
+
+
+#math{
+    
+   
+    background-image: url("math\ book.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+#Physics{
+    
+   
+    background-image: url("phy.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+#Chimistry{
+    
+   
+    background-image: url("chimestry.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+#Mains{
+    
+   
+    background-image: url("mains.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+#Advance{
+    
+   
+    background-image: url("advance.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+.card span{
+   position: absolute;
+   bottom: -5px;
+   left: 50%; 
+    transform: translateX(-50%);  
+    text-align: center;
+    color: hsl(66, 87%, 50%);
+    font-size: larger;
+    font-weight: bolder;
+   
+   
+   
+}

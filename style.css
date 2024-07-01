@@ -113,3 +113,15 @@ span{
 
 
 
+
+button:hover::after span{
+    width: 100%;
+    left: 100%;
+
+}
+button:hover{
+    z-index: 10;
+    transform: scale(1.15);
+    background-color: #009688;
+    transition: 1s; 
+}
